@@ -6,4 +6,6 @@
   --color-blue: #0088cc;
   --color-white: #fff;
   --color-gray: #667180;
+
+  --breakpoint-xs: 31.25rem;
 }

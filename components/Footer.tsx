@@ -14,7 +14,7 @@ export default function Footer() {
         </a>
       </div>
       <div class="flex justify-end">
-        <span class="max-w-30 text-gray-500 text-sm">
+        <span class="hidden xs:block max-w-30 text-gray-500 text-sm">
           Красная или синяя таблетка?
         </span>
         <a
