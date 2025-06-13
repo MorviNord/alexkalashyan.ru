@@ -1,0 +1,31 @@
+import { TablesIcon } from "../static/Icon/tables.tsx";
+import { FreshIcon } from "../static/Icon/fresh-badge.tsx";
+
+export default function Footer() {
+  return (
+    <footer class="mt-8 flex justify-between">
+      <div class="self-center">
+        <a
+          href="https://fresh.deno.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FreshIcon />
+        </a>
+      </div>
+      <div class="flex justify-end">
+        <span class="max-w-30 text-gray-500 text-sm">
+          Красная или синяя таблетка?
+        </span>
+        <a
+          href="/"
+          target="_blank"
+          class="flex items-center gap-4"
+          rel="noopener noreferrer"
+        >
+          <TablesIcon />
+        </a>
+      </div>
+    </footer>
+  );
+}
