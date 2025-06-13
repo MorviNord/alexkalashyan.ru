@@ -3,7 +3,7 @@ import { FreshIcon } from "../static/Icon/fresh-badge.tsx";
 
 export default function Footer() {
   return (
-    <footer class="mt-8 flex justify-between">
+    <footer class="mt-8 xs:flex justify-between">
       <div class="self-center">
         <a
           href="https://fresh.deno.dev"
