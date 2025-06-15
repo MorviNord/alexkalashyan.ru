@@ -1,38 +1,28 @@
 import { useEffect, useState } from "preact/hooks";
+import { useTypeWriter } from "../utils/typeWriter.tsx";
 
 export default function Header() {
   const [imagePhase, setImagePhase] = useState(0);
+  const displayText = useTypeWriter("Александр Калашян,", 190);
 
   useEffect(() => {
-    const timer1 = setTimeout(() => {
-      setImagePhase(1);
+    const timer1 = setTimeout(() => setImagePhase(1), 700);
+    const timer2 = setTimeout(() => setImagePhase(2), 2700);
 
-      const timer2 = setTimeout(() => {
-        setImagePhase(2);
-      }, 2000);
-
-      return () => clearTimeout(timer2);
-    }, 700);
-
-    return () => clearTimeout(timer1);
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+    };
   }, []);
 
   const getImageSources = () => {
-    switch (imagePhase) {
-      case 1:
-        return {
-          jxl: "/ava/ava2.jxl",
-          webp: "/ava/ava2.webp",
-          jpg: "/ava/ava2.jpg",
-        };
-      case 2:
-      default:
-        return {
-          jxl: "/ava/ava.jxl",
-          webp: "/ava/ava.webp",
-          jpg: "/ava/ava.jpg",
-        };
-    }
+    const suffix = imagePhase === 1 ? "2" : "";
+
+    return {
+      jxl: `/ava/ava${suffix}.jxl`,
+      webp: `/ava/ava${suffix}.jxl`,
+      jpg: `/ava/ava${suffix}.jxl`,
+    };
   };
 
   const sources = getImageSources();
@@ -57,7 +47,7 @@ export default function Header() {
         />
       </picture>
       <h1 class="max-w-2xs text-3xl mt-5 text-white">
-        Александр Калашян, <span class="text-blue">Project manager</span>
+        {displayText} <span class="text-blue">Project manager</span>
       </h1>
     </header>
   );
