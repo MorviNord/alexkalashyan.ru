@@ -3,6 +3,7 @@ import { useTypeWriter } from "../utils/typeWriter.tsx";
 
 export default function Header() {
   const [imagePhase, setImagePhase] = useState(0);
+
   const displayText = useTypeWriter("Александр Калашян,", 190);
 
   useEffect(() => {
@@ -20,15 +21,15 @@ export default function Header() {
 
     return {
       jxl: `/ava/ava${suffix}.jxl`,
-      webp: `/ava/ava${suffix}.jxl`,
-      jpg: `/ava/ava${suffix}.jxl`,
+      webp: `/ava/ava${suffix}.webp`,
+      jpg: `/ava/ava${suffix}.jpg`,
     };
   };
 
   const sources = getImageSources();
 
   return (
-    <header class="flex flex-col items-center pt-14 px-4">
+    <header class="flex flex-col items-center pt-14">
       <picture class="transition-opacity duration-300">
         <source
           srcset={sources.jxl}
