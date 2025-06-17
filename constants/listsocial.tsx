@@ -17,7 +17,7 @@ const social = [
   {
     id: 3,
     icon: <GiteaIcon />,
-    link: "https://gitea.com/morvicool",
+    link: "https://github.com/MorviNord?tab=repositories",
   },
 ];
 

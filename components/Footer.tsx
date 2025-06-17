@@ -18,7 +18,7 @@ export default function Footer() {
           Красная или синяя таблетка?
         </span>
         <a
-          href="/"
+          href="https://youtu.be/BpwimtOwNh4?si=Mg2C7_39lGm-BNbI"
           target="_blank"
           class="flex items-center gap-4"
           rel="noopener noreferrer"
