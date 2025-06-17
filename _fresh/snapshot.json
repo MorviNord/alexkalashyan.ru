@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "buildId": "8afd41af6b9127bdf11b04d4a6d273e6ad63235d",
+  "buildId": "bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97",
   "islands": {
-    "Counter": "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Counter.js",
-    "Header": "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Header.js",
-    "Tabs": "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Tabs.js"
+    "Counter": "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Counter.js",
+    "Header": "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Header.js",
+    "Tabs": "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Tabs.js"
   },
   "staticFiles": {
     "/ava/ava.jpg": {
@@ -33,6 +33,10 @@
     },
     "/favicon.ico": {
       "hash": "ceefc31bd51194e03c78f9d35f9ca4d8b474b01280f83cd1490fb96a87c0dd12",
+      "generated": false
+    },
+    "/Icon/arrow.tsx": {
+      "hash": "0cfbe95c5cc0edb59b13d78c28223330bc2be6b2747bbe0f06fd0e77ef554cb1",
       "generated": false
     },
     "/Icon/fresh-badge.tsx": {
@@ -87,44 +91,44 @@
       "hash": "57a56c2eae18ee44be2439c29154a6fd398c4984d03eb1418a4e81cfbfc8e28f",
       "generated": false
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/fresh-runtime.js": {
-      "hash": "tgMRVe7tV4U",
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/fresh-runtime.js": {
+      "hash": "wVldqZoqPGg",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Counter.js": {
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Counter.js": {
       "hash": "ssWujS2y2I4",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Header.js": {
-      "hash": "lWSp6KoxYeg",
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Header.js": {
+      "hash": "mIKESMBugh0",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/Tabs.js": {
-      "hash": "20mFCy1SPM8",
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/Tabs.js": {
+      "hash": "NEh3w7+HTSQ",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/chunk-4L4VWKQO.js": {
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/chunk-4L4VWKQO.js": {
       "hash": "EhenOCtche8",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/chunk-GUT75QGG.js": {
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/chunk-GUT75QGG.js": {
       "hash": "dYTksCBPInU",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/chunk-PU7LOK2X.js": {
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/chunk-PU7LOK2X.js": {
       "hash": "F2cIb97ULLY",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/chunk-AYVXV32C.js": {
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/chunk-AYVXV32C.js": {
       "hash": "ixZacnjk9t8",
       "generated": true
     },
-    "/_fresh/js/8afd41af6b9127bdf11b04d4a6d273e6ad63235d/metafile.json": {
-      "hash": "25508b2e3ca7319a5e2c3320c2cc6dd8ca1b0923e0ba5fc2e9a8afa614878adb",
+    "/_fresh/js/bbb11f9f93bb4b79d0179c84d917ad1dfc4e9c97/metafile.json": {
+      "hash": "aaacf0df3d7c82aaf82e0f6816cba0a88c93a602d64b6aa076a5678ecd597e6f",
       "generated": true
     },
     "/styles.css": {
-      "hash": "945c18b593068312e74d6bd213bdab10734f30d3bb4bb14862fdb9bccc2ac51a",
+      "hash": "56fd59faef3e8ab7eba2afd34ec8bd41f3df502a22f183ca4b1e6e4f935b3f80",
       "generated": true
     }
   }
