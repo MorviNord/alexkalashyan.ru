@@ -1,4 +1,5 @@
 import type { PageProps } from "fresh";
+import { schema } from "../utils/schema.ts";
 
 export default function App({ Component }: PageProps) {
   return (
@@ -25,7 +26,14 @@ export default function App({ Component }: PageProps) {
           property="og:description"
           content="Web Development & Project Management Professional"
         />
+        <meta
+          name="keywords"
+          content="project manager, web development, IT management, Alexander Kalashyan, project support"
+        />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
         <link rel="canonical" href="https://alexkalashyan.deno.dev/" />
         <title>Alexander Kalashyan | IT Project Manager</title>
         <link rel="stylesheet" href="/styles.css" />
