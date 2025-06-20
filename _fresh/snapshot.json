@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "buildId": "2d819933bfc8359a05bd463fc60dcf98b8293752",
+  "buildId": "f666696dfb0bea2dff13de58b831982b9e9d2d5b",
   "islands": {
-    "Counter": "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Counter.js",
-    "Header": "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Header.js",
-    "Tabs": "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Tabs.js"
+    "Counter": "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Counter.js",
+    "Header": "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Header.js",
+    "Tabs": "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Tabs.js"
   },
   "staticFiles": {
     "/ava/ava.jpg": {
@@ -33,6 +33,10 @@
     },
     "/favicon.ico": {
       "hash": "ceefc31bd51194e03c78f9d35f9ca4d8b474b01280f83cd1490fb96a87c0dd12",
+      "generated": false
+    },
+    "/googlea6d487357963a55e.html": {
+      "hash": "93aced60605521e00192428a218791f7b0e08ab7671b6389f14e748e20af20c8",
       "generated": false
     },
     "/Icon/arrow.tsx": {
@@ -95,39 +99,43 @@
       "hash": "ab1e7ec8be42cb8e1d64ab828826e4b70c63b87c4e96d23a1d135590d26ca3a6",
       "generated": false
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/fresh-runtime.js": {
-      "hash": "gEYyI4SF1Dw",
+    "/sitemap.xml": {
+      "hash": "0487a592a7f25e6fcc65939db6b4f3ef071b6a61209a063e69df89052abeec27",
+      "generated": false
+    },
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/fresh-runtime.js": {
+      "hash": "1amV3rmz6Ho",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Counter.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Counter.js": {
       "hash": "ssWujS2y2I4",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Header.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Header.js": {
       "hash": "mIKESMBugh0",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/Tabs.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/Tabs.js": {
       "hash": "NEh3w7+HTSQ",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/chunk-4L4VWKQO.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/chunk-4L4VWKQO.js": {
       "hash": "EhenOCtche8",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/chunk-GUT75QGG.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/chunk-GUT75QGG.js": {
       "hash": "dYTksCBPInU",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/chunk-PU7LOK2X.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/chunk-PU7LOK2X.js": {
       "hash": "F2cIb97ULLY",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/chunk-AYVXV32C.js": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/chunk-AYVXV32C.js": {
       "hash": "ixZacnjk9t8",
       "generated": true
     },
-    "/_fresh/js/2d819933bfc8359a05bd463fc60dcf98b8293752/metafile.json": {
+    "/_fresh/js/f666696dfb0bea2dff13de58b831982b9e9d2d5b/metafile.json": {
       "hash": "aaacf0df3d7c82aaf82e0f6816cba0a88c93a602d64b6aa076a5678ecd597e6f",
       "generated": true
     },
