@@ -1,29 +1,27 @@
-import { ListImgLink } from "./interface.tsx";
-
-const interests: ListImgLink[] = [
+const interests = [
   {
     id: 1,
     img: "/img/interests/fitness_item.svg",
     label: "спортзал",
-    name: undefined,
+    alt: "Моё увлечение фитнесом",
   },
   {
     id: 2,
     img: "/img/interests/crypto_item.svg",
     label: "крипто",
-    name: undefined,
+    alt: "Интерес к криптовалютам",
   },
   {
     id: 3,
     img: "/img/interests/games_item.svg",
     label: "игры",
-    name: undefined,
+    alt: "Увлечение видеоиграми",
   },
   {
     id: 4,
     img: "/img/interests/coding_item.svg",
     label: "кодинг",
-    name: undefined,
+    alt: "Программирование как хобби",
   },
 ];
 

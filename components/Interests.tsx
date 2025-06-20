@@ -6,11 +6,12 @@ export function Interests() {
       <div class="text-gray-300">
         <ul class="flex gap-3">
           {interests.map((item) => (
-            <li class="flex flex-col items-center" key={item.name}>
+            <li class="flex flex-col items-center" key={item.id}>
               <img
                 width="30"
                 height="30"
                 src={item.img}
+                alt={item.alt}
               />
               {item.label}
             </li>
