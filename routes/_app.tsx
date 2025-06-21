@@ -6,10 +6,13 @@ export default function App({ Component }: PageProps) {
     <html lang="ru" class="bg-midnight">
       <head>
         <meta charSet="utf-8" />
+        <meta name="theme-color" content="#161c26" />
+        <meta name="color-scheme" content="dark light" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         />
+        <meta name="performance-hints" content="preload-images" />
         <meta
           name="author"
           content="Alexander Kalashyan | Web Development & Project Management"
@@ -31,12 +34,18 @@ export default function App({ Component }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
+        <script type="application/ld+json" defer>
           {JSON.stringify(schema)}
         </script>
         <link rel="canonical" href="https://alexkalashyan.ru/" />
         <title>Alexander Kalashyan | IT Project Manager</title>
-        <link rel="stylesheet" href="/styles.css" />
+        <link
+          rel="preload"
+          href="/styles.css"
+          as="style"
+          fetchPriority="high"
+        />
+        <link rel="stylesheet" href="/styles.css" fetchPriority="high" />
       </head>
       <body class="grid min-h-screen grid-rows-[auto_1fr_auto] max-w-[680px] mx-auto px-4">
         <Component />

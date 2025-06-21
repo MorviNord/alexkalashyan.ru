@@ -45,6 +45,7 @@ export default function Header() {
           alt="avatar"
           width="128"
           height="128"
+          style="aspect-ratio: 1/1 width: 100%; height: auto;"
         />
       </picture>
       <h1 class="max-w-2xs text-3xl mt-5 text-white">
