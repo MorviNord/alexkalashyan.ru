@@ -34,7 +34,7 @@ export default function App({ Component }: PageProps) {
         <script type="application/ld+json">
           {JSON.stringify(schema)}
         </script>
-        <link rel="canonical" href="https://alexkalashyan.deno.dev/" />
+        <link rel="canonical" href="https://alexkalashyan.ru/" />
         <title>Alexander Kalashyan | IT Project Manager</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
