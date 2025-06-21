@@ -34,17 +34,11 @@ export default function App({ Component }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json" defer>
+        <script type="application/ld+json">
           {JSON.stringify(schema)}
         </script>
         <link rel="canonical" href="https://alexkalashyan.ru/" />
         <title>Alexander Kalashyan | IT Project Manager</title>
-        <link
-          rel="preload"
-          href="/styles.css"
-          as="style"
-          fetchPriority="high"
-        />
         <link rel="stylesheet" href="/styles.css" fetchPriority="high" />
       </head>
       <body class="grid min-h-screen grid-rows-[auto_1fr_auto] max-w-[680px] mx-auto px-4">
