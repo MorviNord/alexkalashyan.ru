@@ -1,7 +1,7 @@
 import type { PageProps } from "fresh";
 import { schema } from "../utils/schema.ts";
 
-export default function App({ Component }: PageProps) {
+export default function App({ Component, url }: PageProps) {
   return (
     <html lang="ru" class="bg-midnight">
       <head>
@@ -35,7 +35,10 @@ export default function App({ Component }: PageProps) {
         <script type="application/ld+json">
           {JSON.stringify(schema)}
         </script>
-        <link rel="canonical" href="https://alexkalashyan.ru/" />
+        <link
+          rel="canonical"
+          href={`https://alexkalashyan.ru${url.pathname}`}
+        />
         <title>Alexander Kalashyan | IT Project Manager</title>
         <link rel="stylesheet" href="/styles.css" fetchPriority="high" />
       </head>
