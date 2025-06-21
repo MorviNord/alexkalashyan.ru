@@ -32,7 +32,7 @@ export default function App({ Component, url }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
+        <script type="application/ld+json" async>
           {JSON.stringify(schema)}
         </script>
         <link
@@ -40,7 +40,11 @@ export default function App({ Component, url }: PageProps) {
           href={`https://alexkalashyan.ru${url.pathname}`}
         />
         <title>Alexander Kalashyan | IT Project Manager</title>
-        <link rel="stylesheet" href="/styles.css" fetchPriority="high" />
+        <link rel="preload" href="/styles.css" as="style" />
+        <link
+          rel="stylesheet"
+          href="/styles.css"
+        />
       </head>
       <body class="grid min-h-screen grid-rows-[auto_1fr_auto] max-w-[680px] mx-auto px-4">
         <Component />
