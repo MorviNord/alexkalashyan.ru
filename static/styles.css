@@ -14,3 +14,9 @@
 img {
   aspect-ratio: attr(width) / attr(height);
 }
+
+body {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
