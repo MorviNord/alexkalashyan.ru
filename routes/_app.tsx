@@ -6,8 +6,6 @@ export default function App({ Component }: PageProps) {
     <html lang="ru" class="bg-midnight">
       <head>
         <meta charSet="utf-8" />
-        <meta name="theme-color" content="#161c26" />
-        <meta name="color-scheme" content="dark light" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"

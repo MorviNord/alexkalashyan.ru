@@ -10,7 +10,3 @@
   --breakpoint-xl: 28.125rem;
   --breakpoint-xs: 20rem;
 }
-
-img {
-  aspect-ratio: attr(width) / attr(height);
-}
