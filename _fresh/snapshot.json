@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "buildId": "4018509a3c9eeed444f4632ab000de01ed81e0b1",
+  "islands": {
+    "ExperienceSection": "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/ExperienceSection.js",
+    "Header": "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/Header.js",
+    "Tabs": "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/Tabs.js"
+  },
+  "staticFiles": {
+    "/ava/ava.jpg": {
+      "hash": "9151b73e2e4de8b9429b93bdb5b47ae8d9f716d2717abc66d83b822a4064124f",
+      "generated": false
+    },
+    "/ava/ava.jxl": {
+      "hash": "e9339e4c2ef5dd5d0590b6f42b707848000df0d62e6b79a29a67af22bc4ffec7",
+      "generated": false
+    },
+    "/ava/ava.webp": {
+      "hash": "ebf957ea97900d49a9d3c85e18a4203f5f0d944c34c4e02c2d904dd73c9f7ba4",
+      "generated": false
+    },
+    "/ava/ava2.jpg": {
+      "hash": "8cb5cbaf6ad8957533c75057f9c93f568809c29c2755bad1a93589c602328cfb",
+      "generated": false
+    },
+    "/ava/ava2.jxl": {
+      "hash": "92b0c6b41ffe8b6b4ce2a5cc23ff7ab4965cd3003956078a3a28f476811c135a",
+      "generated": false
+    },
+    "/ava/ava2.webp": {
+      "hash": "86e7a2296b18521706d677cb9efd87ab079a443b2bef6e4897eaa51f8bd685df",
+      "generated": false
+    },
+    "/favicon.ico": {
+      "hash": "ceefc31bd51194e03c78f9d35f9ca4d8b474b01280f83cd1490fb96a87c0dd12",
+      "generated": false
+    },
+    "/googlea6d487357963a55e.html": {
+      "hash": "93aced60605521e00192428a218791f7b0e08ab7671b6389f14e748e20af20c8",
+      "generated": false
+    },
+    "/Icon/arrow.tsx": {
+      "hash": "0cfbe95c5cc0edb59b13d78c28223330bc2be6b2747bbe0f06fd0e77ef554cb1",
+      "generated": false
+    },
+    "/Icon/fresh-badge.tsx": {
+      "hash": "5bf5747dc7fdcfde5beb7c63acdbc9796ec695965f62b5fee2d72485d8c413b5",
+      "generated": false
+    },
+    "/Icon/IcLogo.svg": {
+      "hash": "d0856bf799177cd86adfcc5a0f0ff9e9644eca7c1a8fc86ef78cc1de5522c56f",
+      "generated": false
+    },
+    "/Icon/link.tsx": {
+      "hash": "18065329501e52705eb44af96b093c949e4628b5be722437242c62e6b62f86b1",
+      "generated": false
+    },
+    "/Icon/social/gitea.tsx": {
+      "hash": "631478ec13b3416b2efb3e635263ad8dfb9dbd1b92fa19beef074ca78227f85d",
+      "generated": false
+    },
+    "/Icon/social/Instagram.tsx": {
+      "hash": "a1e0d90c895e3668bdae59fac2c09adb903f31f48ad450423fb38ffb6c3a7a17",
+      "generated": false
+    },
+    "/Icon/social/telegram.tsx": {
+      "hash": "7928a47838cc2b7a256e0f98f85a0b48f5283df56019ad15e67941e0ccfd7caf",
+      "generated": false
+    },
+    "/Icon/star.tsx": {
+      "hash": "3e34f84597e2fe172b097b29bf1740a97b158fca9d8f42a9f8e52e25837df0c5",
+      "generated": false
+    },
+    "/Icon/tables.tsx": {
+      "hash": "9c3a13794f46ea7cd5febb4423588bc785f3bee2cae95d7f8de69c91437e6136",
+      "generated": false
+    },
+    "/img/interests/coding_item.svg": {
+      "hash": "d0db55c2f210293c3f862d22b10ac6552ff26093fa419b2acb0b756fb6db8e5f",
+      "generated": false
+    },
+    "/img/interests/crypto_item.svg": {
+      "hash": "4f1cc055b2132b6c21514ac265ee031de70bd6d5a2eba7498d3755725dac616c",
+      "generated": false
+    },
+    "/img/interests/fitness_item.svg": {
+      "hash": "c1b2b23c24ae53f374b330324dc90b046652672e65fe063abf02ac62eae7b0af",
+      "generated": false
+    },
+    "/img/interests/games_item.svg": {
+      "hash": "d290571914af9a92fe9aefb053f8c3c7e1f95a1cd52fd52929805ea2752fd6ad",
+      "generated": false
+    },
+    "/logo.svg": {
+      "hash": "57a56c2eae18ee44be2439c29154a6fd398c4984d03eb1418a4e81cfbfc8e28f",
+      "generated": false
+    },
+    "/robots.txt": {
+      "hash": "c37e4f0276ae3400b7ad1a09984b1e8e1212cf30bf768928fd90fd1154050165",
+      "generated": false
+    },
+    "/sitemap.xml": {
+      "hash": "8615c0b0a4a3b6cfd305b939d4ccc8829ef19af879000949968480ab4803b4d1",
+      "generated": false
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/fresh-runtime.js": {
+      "hash": "4xZCAQ7Db9c",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/ExperienceSection.js": {
+      "hash": "JtTcJ0Jarjg",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/Header.js": {
+      "hash": "GiyEoACDrvA",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/Tabs.js": {
+      "hash": "NEh3w7+HTSQ",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/chunk-4L4VWKQO.js": {
+      "hash": "EhenOCtche8",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/chunk-GUT75QGG.js": {
+      "hash": "dYTksCBPInU",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/chunk-PU7LOK2X.js": {
+      "hash": "F2cIb97ULLY",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/chunk-AYVXV32C.js": {
+      "hash": "ixZacnjk9t8",
+      "generated": true
+    },
+    "/_fresh/js/4018509a3c9eeed444f4632ab000de01ed81e0b1/metafile.json": {
+      "hash": "4628058962a59bae31ca91d63ecc31dd5271cd0949173307f9171452460700d1",
+      "generated": true
+    },
+    "/styles.css": {
+      "hash": "e9ddd64fd5ae5d379e61409f5fa9a83dd08dc55bf9c09e03ca186d120f4de3ef",
+      "generated": true
+    }
+  }
+}
