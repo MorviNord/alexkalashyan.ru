@@ -32,7 +32,7 @@ export default function App({ Component, url }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
+        <script type="application/json">
           {JSON.stringify(schema)}
         </script>
         <link rel="icon" href="/favicon.ico" />
