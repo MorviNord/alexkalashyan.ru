@@ -14,5 +14,5 @@ export const schema = {
     "@type": "PostalAddress",
     "addressLocality": "Stavropol",
     "addressCountry": "RU"
-  },
+  }
 };
