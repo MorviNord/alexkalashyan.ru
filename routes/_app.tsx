@@ -33,7 +33,17 @@ export default function App({ Component, url }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <JsonLd data={schema} />
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Alexander Kalashyan",
+            "url": "https://alexkalashyan.ru/",
+            "sameAs": [
+              "https://github.com/MorviNord",
+            ],
+          }}
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="canonical"

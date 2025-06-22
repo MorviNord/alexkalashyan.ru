@@ -5,7 +5,7 @@ export const schema = {
   "name": "Alexander Kalashyan",
   "jobTitle": "IT Project Manager",
   "url": "https://alexkalashyan.ru/",
-  "image": "https://alexkalashyan.ru/ava/ava.jpg",
+  "image": "https://alexkalashyan.ru/ava/ava2.jpg",
   "sameAs": [
     "https://stavropol.hh.ru/resume/0f989cc3ff0cbfa2c20039ed1f5a38736c3158",
     "https://github.com/MorviNord"
