@@ -31,7 +31,15 @@ export default function App({ Component, url }: PageProps) {
           name="keywords"
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
+        <meta property="og:url" content="https://alexkalashyan.ru/" />
         <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://alexkalashyan.ru/ava/ava2.webp"
+        />
+        <meta property="og:locale" content="ru_RU" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Alexander Kalashyan" />
         <script type="application/json">
           {JSON.stringify(schema)}
         </script>
