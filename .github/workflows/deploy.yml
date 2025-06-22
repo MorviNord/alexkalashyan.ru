@@ -26,6 +26,9 @@ jobs:
       - name: Build step
         run: "deno task build"
 
+      - name: Check build files
+        run: "ls -la _fresh/"
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
