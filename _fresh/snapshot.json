@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "buildId": "934999682f1a61627c5ba8c3c9f88d67616653e7",
+  "buildId": "5e0691cdf88f523b39530e1d1060d5299139983d",
   "islands": {
-    "ExperienceSection": "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/ExperienceSection.js",
-    "Header": "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/Header.js",
-    "Tabs": "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/Tabs.js"
+    "ExperienceSection": "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/ExperienceSection.js",
+    "Header": "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/Header.js",
+    "Tabs": "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/Tabs.js"
   },
   "staticFiles": {
     "/ava/ava.jpg": {
@@ -33,6 +33,10 @@
     },
     "/favicon.ico": {
       "hash": "ceefc31bd51194e03c78f9d35f9ca4d8b474b01280f83cd1490fb96a87c0dd12",
+      "generated": false
+    },
+    "/favicon.svg": {
+      "hash": "33b748dc8e4de2ec7fa9496fa9f4c608c57365e9a3ac72aaba1642c55260bc89",
       "generated": false
     },
     "/googlea6d487357963a55e.html": {
@@ -107,44 +111,44 @@
       "hash": "1fc64b2cbd562f33274dc2ea822e68501debb0aa498e19c09ee4a8b413d3e02f",
       "generated": false
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/fresh-runtime.js": {
-      "hash": "nEJsnyStmWI",
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/fresh-runtime.js": {
+      "hash": "qKsxpi4C1gg",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/ExperienceSection.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/ExperienceSection.js": {
       "hash": "JtTcJ0Jarjg",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/Header.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/Header.js": {
       "hash": "GiyEoACDrvA",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/Tabs.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/Tabs.js": {
       "hash": "NEh3w7+HTSQ",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/chunk-4L4VWKQO.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/chunk-4L4VWKQO.js": {
       "hash": "EhenOCtche8",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/chunk-GUT75QGG.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/chunk-GUT75QGG.js": {
       "hash": "dYTksCBPInU",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/chunk-PU7LOK2X.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/chunk-PU7LOK2X.js": {
       "hash": "F2cIb97ULLY",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/chunk-AYVXV32C.js": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/chunk-AYVXV32C.js": {
       "hash": "ixZacnjk9t8",
       "generated": true
     },
-    "/_fresh/js/934999682f1a61627c5ba8c3c9f88d67616653e7/metafile.json": {
+    "/_fresh/js/5e0691cdf88f523b39530e1d1060d5299139983d/metafile.json": {
       "hash": "4628058962a59bae31ca91d63ecc31dd5271cd0949173307f9171452460700d1",
       "generated": true
     },
     "/styles.css": {
-      "hash": "e9ddd64fd5ae5d379e61409f5fa9a83dd08dc55bf9c09e03ca186d120f4de3ef",
+      "hash": "68acd296e71fa2782053ca5098bb9e092d78b37e27eab991350fb1cbde57de18",
       "generated": true
     }
   }

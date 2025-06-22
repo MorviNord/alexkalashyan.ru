@@ -5,7 +5,7 @@ export const resumeData = {
     "Компетентный, технический проджект менеджер, заинтересованный в руководстве проектов.",
   skills: {
     util: ["Jira", "Confluence", "Miro", "Figma", "Битрикс24"],
-    web: ["HTML", "CSS/SCSS", "JS", "Vue 3", "Git"],
+    web: ["HTML", "CSS/SCSS", "JS", "Vue 3", "Fresh(Deno)", "Git"],
     social: [
       "Управление командой",
       "Гибкость в решении проблем",

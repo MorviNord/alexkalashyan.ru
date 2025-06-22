@@ -43,7 +43,7 @@ export default function App({ Component, url }: PageProps) {
         <script type="application/json">
           {JSON.stringify(schema)}
         </script>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link
           rel="canonical"
           href={`https://alexkalashyan.ru${url.pathname}`}
