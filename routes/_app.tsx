@@ -1,5 +1,6 @@
 import type { PageProps } from "fresh";
 import { schema } from "../utils/schema.ts";
+import { JsonLd } from "../components/JsonLd.tsx";
 
 export default function App({ Component, url }: PageProps) {
   return (
@@ -32,9 +33,7 @@ export default function App({ Component, url }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
+        <JsonLd data={schema} />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="canonical"
