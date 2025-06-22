@@ -1,4 +1,5 @@
 import type { PageProps } from "fresh";
+import { schema } from "../utils/schema.ts";
 
 export default function App({ Component, url }: PageProps) {
   return (
@@ -32,23 +33,7 @@ export default function App({ Component, url }: PageProps) {
         />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">
-          {`{
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "Alexander Kalashyan",
-              "jobTitle": "IT Project Manager",
-              "url": "https://alexkalashyan.ru/",
-              "sameAs": [
-                "https://stavropol.hh.ru/resume/0f989cc3ff0cbfa2c20039ed1f5a38736c3158",
-                "https://github.com/MorviNord"
-              ],
-              "skills": ["Web Development", "Project Management"],
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Stavropol",
-                "addressCountry": "RU"
-              }
-            }`}
+          {JSON.stringify(schema)}
         </script>
         <link rel="icon" href="/favicon.ico" />
         <link
