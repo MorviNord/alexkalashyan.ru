@@ -1,6 +1,5 @@
 import type { PageProps } from "fresh";
 import { schema } from "../utils/schema.ts";
-import { JsonLd } from "../components/JsonLd.tsx";
 
 export default function App({ Component, url }: PageProps) {
   return (
@@ -33,17 +32,9 @@ export default function App({ Component, url }: PageProps) {
           content="project manager, web development, IT management, Alexander Kalashyan, project support"
         />
         <meta property="og:type" content="website" />
-        <JsonLd
-          data={{
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Alexander Kalashyan",
-            "url": "https://alexkalashyan.ru/",
-            "sameAs": [
-              "https://github.com/MorviNord",
-            ],
-          }}
-        />
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="canonical"
