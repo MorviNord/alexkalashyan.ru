@@ -1,5 +1,5 @@
 import type { PageProps } from "fresh";
-import { schema } from "../utils/schema.ts";
+import { schema } from "../utils/schema.tsx";
 
 export default function App({ Component, url }: PageProps) {
   return (
