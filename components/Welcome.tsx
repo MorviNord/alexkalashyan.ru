@@ -7,7 +7,7 @@ export default function Welcome() {
       <div>
         <h2 class="font-bold">#morvicool</h2>
         <p class="mt-2 text-sm text-gray-600">
-          Привет!
+          Привет!1212
           <br />
           Я ПМ команды разработки, занимаюсь управлением проектов и их
           поддержкой. В свободное время увлекаюсь разработкой веб-сайтов и
