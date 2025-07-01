@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "buildId": "a84c29b8e8cd3534b33a292a4de1b49072635684",
+  "buildId": "e66fc1504c192e1713bcc978b015f98c8327174a",
   "islands": {
-    "Header": "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/Header.js",
-    "Tabs": "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/Tabs.js"
+    "Header": "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/Header.js",
+    "Tabs": "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/Tabs.js"
   },
   "staticFiles": {
     "/ava/ava.jpg": {
@@ -98,32 +98,32 @@
       "hash": "1fc64b2cbd562f33274dc2ea822e68501debb0aa498e19c09ee4a8b413d3e02f",
       "generated": false
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/fresh-runtime.js": {
-      "hash": "tZMPjzL86LY",
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/fresh-runtime.js": {
+      "hash": "igErkrDfd50",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/Header.js": {
-      "hash": "G3MFV17rlEo",
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/Header.js": {
+      "hash": "E+/28r7NK50",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/Tabs.js": {
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/Tabs.js": {
       "hash": "yiuDZeAeLb4",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/chunk-3WESYCWY.js": {
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/chunk-3WESYCWY.js": {
       "hash": "EOzRMEnQ1cw",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/chunk-BHJUU36L.js": {
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/chunk-BHJUU36L.js": {
       "hash": "9ouMRQWX1r8",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/chunk-LTY4SK3X.js": {
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/chunk-LTY4SK3X.js": {
       "hash": "PAyxyoGSK5Y",
       "generated": true
     },
-    "/_fresh/js/a84c29b8e8cd3534b33a292a4de1b49072635684/metafile.json": {
-      "hash": "6581c0cb9d49efb8bec634d8168be38b922afd11aaebed58fa25dbc6a6464fa5",
+    "/_fresh/js/e66fc1504c192e1713bcc978b015f98c8327174a/metafile.json": {
+      "hash": "3276829b278c4c94954a312c311ae9ccb434e2c2921baff804c1330f29f0f1e9",
       "generated": true
     },
     "/styles.css": {

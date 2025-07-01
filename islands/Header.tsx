@@ -11,7 +11,7 @@ export default function Header() {
           type="image/jxl"
         />
         <source
-          srcset="/ava/ava.wp2"
+          srcset="/ava/ava.webp"
           type="image/webp"
         />
         <img
