@@ -1,6 +1,7 @@
 {
+  "nodeModulesDir": "auto",
   "tasks": {
-    "check": "deno fmt --check . && deno lint . && deno check **/*.ts && deno check **/*.tsx",
+    "check": "deno fmt --check . && deno lint . && deno check",
     "dev": "deno run -A --watch=static/,routes/ dev.ts",
     "build": "deno run -A dev.ts build",
     "start": "deno run -A main.ts",
@@ -8,39 +9,23 @@
   },
   "lint": {
     "rules": {
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
+      "tags": ["fresh", "recommended"]
     }
   },
-  "exclude": [
-    "**/_fresh/*"
-  ],
-  "nodeModulesDir": "auto",
+  "exclude": ["**/_fresh/*"],
   "imports": {
-    "@pakornv/fresh-plugin-tailwindcss": "jsr:@pakornv/fresh-plugin-tailwindcss@2.0.0-alpha.1",
     "fresh": "jsr:@fresh/core@^2.0.0-alpha.34",
     "preact": "npm:preact@^10.26.6",
     "@preact/signals": "npm:@preact/signals@^2.0.4",
-    "tailwindcss": "npm:tailwindcss@^4.1.7"
+    "postcss": "npm:postcss@^8.5.6",
+    "@tailwindcss/postcss": "npm:@tailwindcss/postcss@^4.1.10",
+    "tailwindcss": "npm:tailwindcss@^4.1.10",
+    "@fresh/plugin-tailwind": "jsr:@freshpress/fresh-plugin-tailwind@1.0.0"
   },
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.asynciterable",
-      "dom.iterable",
-      "deno.ns"
-    ],
+    "lib": ["dom", "dom.asynciterable", "dom.iterable", "deno.ns"],
     "jsx": "precompile",
     "jsxImportSource": "preact",
-    "jsxPrecompileSkipElements": [
-      "a",
-      "img",
-      "source",
-      "body",
-      "html",
-      "head"
-    ]
+    "jsxPrecompileSkipElements": ["a", "img", "source", "body", "html", "head"]
   }
 }

@@ -1,47 +1,22 @@
-import { useEffect, useState } from "preact/hooks";
 import { useTypeWriter } from "../utils/typeWriter.tsx";
 
 export default function Header() {
-  const [imagePhase, setImagePhase] = useState(0);
-
   const displayText = useTypeWriter("Александр Калашян,", 190);
-
-  useEffect(() => {
-    const timer1 = setTimeout(() => setImagePhase(1), 700);
-    const timer2 = setTimeout(() => setImagePhase(2), 2700);
-
-    return () => {
-      clearTimeout(timer1);
-      clearTimeout(timer2);
-    };
-  }, []);
-
-  const getImageSources = () => {
-    const suffix = imagePhase === 1 ? "2" : "";
-
-    return {
-      jxl: `/ava/ava${suffix}.jxl`,
-      webp: `/ava/ava${suffix}.webp`,
-      jpg: `/ava/ava${suffix}.jpg`,
-    };
-  };
-
-  const sources = getImageSources();
 
   return (
     <header class="flex flex-col items-center pt-14">
       <picture class="transition-opacity duration-300">
         <source
-          srcset={sources.jxl}
+          srcset="/ava/ava.jxl"
           type="image/jxl"
         />
         <source
-          srcset={sources.webp}
+          srcset="/ava/ava.wp2"
           type="image/webp"
         />
         <img
           class="rounded-2xl"
-          src={sources.jpg}
+          src="/ava/ava.jpg"
           alt="avatar"
           width="128"
           height="128"
