@@ -18,9 +18,7 @@ export default function Header() {
           class="rounded-2xl"
           src="/ava/ava.jpg"
           alt="avatar"
-          width="136"
-          height="136"
-          style="aspect-ratio: 1/1 width: 100%; height: auto;"
+          className="rounded-2xl aspect-square w-35 h-35 object-cover"
         />
       </picture>
       <h1 class="max-w-2xs text-3xl mt-5 text-white">
