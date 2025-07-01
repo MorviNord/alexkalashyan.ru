@@ -18,8 +18,8 @@ export default function Header() {
           class="rounded-2xl"
           src="/ava/ava.jpg"
           alt="avatar"
-          width="128"
-          height="128"
+          width="136"
+          height="136"
           style="aspect-ratio: 1/1 width: 100%; height: auto;"
         />
       </picture>

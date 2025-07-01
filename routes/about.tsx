@@ -1,6 +1,6 @@
 import { resumeData } from "../constants/ResumeData.tsx";
 import { ArrowIcon } from "../static/Icon/arrow.tsx";
-import ExperienceSection from "../islands/Resume/ExperienceSection.tsx";
+import ExperienceSection from "../components/ExperienceSection.tsx";
 import Footer from "../components/Footer.tsx";
 
 export default function About() {
