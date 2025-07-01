@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "buildId": "24be658d4628f280a09ac6e00e676cc6600b6ffe",
+  "buildId": "5d80913fd69d66c3350bbf038b61716d94d53ebc",
   "islands": {
-    "Header": "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/Header.js",
-    "Tabs": "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/Tabs.js"
+    "Header": "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/Header.js",
+    "Tabs": "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/Tabs.js"
   },
   "staticFiles": {
     "/ava/ava.jpg": {
@@ -98,31 +98,31 @@
       "hash": "1fc64b2cbd562f33274dc2ea822e68501debb0aa498e19c09ee4a8b413d3e02f",
       "generated": false
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/fresh-runtime.js": {
-      "hash": "hGJ+EPBAW5Y",
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/fresh-runtime.js": {
+      "hash": "lOEANAS0+2U",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/Header.js": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/Header.js": {
       "hash": "iUvhbpfw/GE",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/Tabs.js": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/Tabs.js": {
       "hash": "yiuDZeAeLb4",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/chunk-3WESYCWY.js": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/chunk-3WESYCWY.js": {
       "hash": "EOzRMEnQ1cw",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/chunk-BHJUU36L.js": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/chunk-BHJUU36L.js": {
       "hash": "9ouMRQWX1r8",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/chunk-LTY4SK3X.js": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/chunk-LTY4SK3X.js": {
       "hash": "PAyxyoGSK5Y",
       "generated": true
     },
-    "/_fresh/js/24be658d4628f280a09ac6e00e676cc6600b6ffe/metafile.json": {
+    "/_fresh/js/5d80913fd69d66c3350bbf038b61716d94d53ebc/metafile.json": {
       "hash": "fdc8f2fc6cbffd28b996978b7a5bdc2edf9f1cc82158413ccc99f6b6e6b65d1a",
       "generated": true
     },

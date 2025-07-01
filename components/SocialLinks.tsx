@@ -10,6 +10,7 @@ export default function Index() {
           key={item.id}
           target="_blank"
           href={item.link}
+          aria-label={item.label}
         >
           {item.icon}
         </a>
