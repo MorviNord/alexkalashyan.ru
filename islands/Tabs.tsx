@@ -43,10 +43,13 @@ export default function Tabs() {
               </li>
             )))}
         </ul>
-        <div class="text-white">
-          {activeTab.value === 2 &&
-            <p>Скоро...</p>}
-        </div>
+
+        {activeTab.value === 2 &&
+          (
+            <div class="text-white">
+              <p>Скоро...</p>
+            </div>
+          )}
       </div>
     </section>
   );
