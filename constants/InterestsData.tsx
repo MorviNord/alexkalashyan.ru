@@ -5,6 +5,6 @@ export const InterestsData = [{
     "https://medium.com/the-year-of-the-looking-glass/a-managers-manifesto-be5f6b118084",
 }, {
   id: 2,
-  name: "Памятка ПМа",
+  name: "Памятка PMa",
   link: "https://habr.com/ru/articles/924454/",
 }];
