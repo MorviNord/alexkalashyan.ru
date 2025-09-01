@@ -4,25 +4,36 @@ on:
     branches: main
   pull_request:
     branches: main
+
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+
     permissions:
-      id-token: write # Needed for auth with Deno Deploy
-      contents: read # Needed to clone the repository
+      id-token: write
+      contents: read
+
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
+
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
+
       - name: Build step
         run: "deno task build"
+
+      - name: Check build files
+        run: "ls -la _fresh/"
+
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "alexkalashyan"
+          project: "alexkalashyan.ru"
           entrypoint: "main.ts"
           root: "."
+        env:
+          DENO_DEPLOY_TOKEN: ${{ secrets.DENO_DEPLOY_TOKEN }}

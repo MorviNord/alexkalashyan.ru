@@ -4,13 +4,13 @@ import * as Header from "../islands/Header.tsx";
 import * as Tabs from "../islands/Tabs.tsx";
 import * as fsRoute_0 from "../routes/_app.tsx"
 
-export const clientEntry = "/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/fresh-runtime.js"
-export const version = "71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7"
+export const clientEntry = "/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/fresh-runtime.js"
+export const version = "0834ff4fc38599a2a55c130a5015d6685d1323c9"
 
 export const islands = new Map();
 const islandPreparer = new IslandPreparer();
-islandPreparer.prepare(islands, Header, "/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Header.js", "Header", []);
-islandPreparer.prepare(islands, Tabs, "/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Tabs.js", "Tabs", []);
+islandPreparer.prepare(islands, Header, "/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Header.js", "Header", []);
+islandPreparer.prepare(islands, Tabs, "/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Tabs.js", "Tabs", []);
 
 export const staticFiles = new Map([
   ["/ava/ava.jpg", {"name":"/ava/ava.jpg","hash":"11344a8fcf05df6e01350b675650048d00e3998fba3da617d0cc560026f9f7e4","filePath":"static\\ava\\ava.jpg","contentType":"image/jpeg"}],
@@ -34,13 +34,13 @@ export const staticFiles = new Map([
   ["/robots.txt", {"name":"/robots.txt","hash":"c37e4f0276ae3400b7ad1a09984b1e8e1212cf30bf768928fd90fd1154050165","filePath":"static\\robots.txt","contentType":"text/plain; charset=UTF-8"}],
   ["/sitemap.xml", {"name":"/sitemap.xml","hash":"8615c0b0a4a3b6cfd305b939d4ccc8829ef19af879000949968480ab4803b4d1","filePath":"static\\sitemap.xml","contentType":"application/xml"}],
   ["/yandex_b66fe7e133b375ac.html", {"name":"/yandex_b66fe7e133b375ac.html","hash":"14e404a48ef0177ded5bafc86068e0b39d2aa8e491aee4cba9357380b2a33a4d","filePath":"static\\yandex_b66fe7e133b375ac.html","contentType":"text/html; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/fresh-runtime.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/fresh-runtime.js","hash":"dCerzyumous","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\fresh-runtime.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Header.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Header.js","hash":"jsCNr+mUA6g","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\Header.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Tabs.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/Tabs.js","hash":"b5rxVbocYkw","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\Tabs.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-KUVLWYIZ.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-KUVLWYIZ.js","hash":"JsObOvjS1Uc","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\chunk-KUVLWYIZ.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-HCYWZKA7.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-HCYWZKA7.js","hash":"8zUIQmqvBz4","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\chunk-HCYWZKA7.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-MQAWGMSU.js", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/chunk-MQAWGMSU.js","hash":"EZWoYBGchVc","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\chunk-MQAWGMSU.js","contentType":"text/javascript; charset=UTF-8"}],
-  ["/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/metafile.json", {"name":"/_fresh/js/71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7/metafile.json","hash":"9e1b724055690738d84a3c598b0d9ab36ef31e718c2541fcc65585b54d7245c1","filePath":"_fresh\\static\\_fresh\\js\\71cb0259fd1de6506e8b3ab1be9f6e7d2b4918e7\\metafile.json","contentType":"application/json; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/fresh-runtime.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/fresh-runtime.js","hash":"eE4oLMoSpHQ","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\fresh-runtime.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Header.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Header.js","hash":"jsCNr+mUA6g","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\Header.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Tabs.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/Tabs.js","hash":"b5rxVbocYkw","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\Tabs.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-KUVLWYIZ.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-KUVLWYIZ.js","hash":"JsObOvjS1Uc","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\chunk-KUVLWYIZ.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-HCYWZKA7.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-HCYWZKA7.js","hash":"8zUIQmqvBz4","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\chunk-HCYWZKA7.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-MQAWGMSU.js", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/chunk-MQAWGMSU.js","hash":"EZWoYBGchVc","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\chunk-MQAWGMSU.js","contentType":"text/javascript; charset=UTF-8"}],
+  ["/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/metafile.json", {"name":"/_fresh/js/0834ff4fc38599a2a55c130a5015d6685d1323c9/metafile.json","hash":"9e1b724055690738d84a3c598b0d9ab36ef31e718c2541fcc65585b54d7245c1","filePath":"_fresh\\static\\_fresh\\js\\0834ff4fc38599a2a55c130a5015d6685d1323c9\\metafile.json","contentType":"application/json; charset=UTF-8"}],
   ["/styles.css", {"name":"/styles.css","hash":"8ec4ca53195a66bcc80b5a085ddaed9ce1723a3eb1592da994123d861d9c2a70","filePath":"_fresh\\static\\styles.css","contentType":"text/css; charset=UTF-8"}]
 ]);
 
