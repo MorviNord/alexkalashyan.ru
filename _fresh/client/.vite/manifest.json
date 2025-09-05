@@ -1,0 +1,64 @@
+{
+  "_hooks.module-sR6GeCF4.js": {
+    "file": "assets/hooks.module-sR6GeCF4.js",
+    "name": "hooks.module"
+  },
+  "_jsxRuntime.module-BCB6naxn.js": {
+    "file": "assets/jsxRuntime.module-BCB6naxn.js",
+    "name": "jsxRuntime.module",
+    "imports": [
+      "_hooks.module-sR6GeCF4.js"
+    ]
+  },
+  "_signals.module-CAuQLeug.js": {
+    "file": "assets/signals.module-CAuQLeug.js",
+    "name": "signals.module",
+    "imports": [
+      "_hooks.module-sR6GeCF4.js"
+    ]
+  },
+  "fresh:client-entry": {
+    "file": "assets/client-entry-DPwkengq.js",
+    "name": "client-entry",
+    "src": "fresh:client-entry",
+    "isEntry": true,
+    "imports": [
+      "_hooks.module-sR6GeCF4.js",
+      "_signals.module-CAuQLeug.js"
+    ],
+    "css": [
+      "assets/client-entry-CzQ65s2I.css"
+    ]
+  },
+  "fresh:client-snapshot": {
+    "file": "assets/client-snapshot-BDB0GkDe.js",
+    "name": "client-snapshot",
+    "src": "fresh:client-snapshot",
+    "isEntry": true,
+    "dynamicImports": [
+      "islands/Header.tsx",
+      "islands/Tabs.tsx"
+    ]
+  },
+  "islands/Header.tsx": {
+    "file": "assets/Header-Mmrafwl-.js",
+    "name": "Header",
+    "src": "islands/Header.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks.module-sR6GeCF4.js",
+      "_jsxRuntime.module-BCB6naxn.js"
+    ]
+  },
+  "islands/Tabs.tsx": {
+    "file": "assets/Tabs-BRIfDZKQ.js",
+    "name": "Tabs",
+    "src": "islands/Tabs.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_signals.module-CAuQLeug.js",
+      "_jsxRuntime.module-BCB6naxn.js",
+      "_hooks.module-sR6GeCF4.js"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+import { a, s, l, u } from "../server-entry.mjs";
+import { F as Footer } from "./Footer-DfDAXvdq.mjs";
+const resumeData = { name: "Александр Калашян", title: "Резюме", summary: "Компетентный, технический проджект менеджер, заинтересованный в руководстве проектов.", skills: { util: ["Jira", "Confluence", "Miro", "Figma", "Битрикс24"], web: ["HTML", "CSS/SCSS", "JS", "Vue 3", "Fresh(Deno)", "Git"], social: ["Управление командой", "Гибкость в решении проблем", "Критическое мышление", "Планирование", "Риск-менеджмент", "Расстановка приоритетов"] } };
+const $$_tpl_1$2 = ['<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 12l14 0"></path><path d="M5 12l6 6"></path><path d="M5 12l6 -6"></path></svg>'];
+const ArrowIcon = () => a($$_tpl_1$2);
+const ExperienceData = [{ company: "МКК А Деньги", location: "Москва", period: "Март 2024 — по настоящее время", position: "Project manager", responsibilities: ["Организация работы кросс-функциональной команды (10-15 человек) над финансовым продуктом, включая интеграции с внешними партнерами и API Координация между бизнес-подразделениями (Risk, Marketing, Product) и командами разработки для реализации проектов и требований регулятора (ЦБ РФ)", "Приоритизация бэклога с учетом бизнес-целей и технического долга", "Формирование производительности команды и транслирование отчётности для стейкхолдеров ", "Мониторинг статуса продукта и контроль сроков инициатив и задач", "Сбор требований к задачам и проектам", "Формирование дорожной карты (epic flow) с учетом требований", "Ведение проектной документации (User Stories, SOW)"] }, { company: "ABS GROUP", location: "Ставрополь", period: "Июнь 2021 — Декабрь 2023", position: "Менеджер IT-проектов", responsibilities: ["Распределение задач между разработчиками и дизайнером", "Коммуникация между разработчиками и заказчиком (ведение переговоров, согласование, отчетность)", "Управление командой (найм, контроль выполненных задач, организация процессов)", "Первичный прием работ разработчиков и дизайнера", "Ведение таск-трекинга", "Груминг бэклога (приоритет по оставшимся задачам)", "Ведение документации (гайдлайны)", "Решение задач фронтенд части легкой сложности"] }];
+const $$_tpl_1$1 = ['<section class="flex flex-col gap-8 text-white mt-8"><h2 class="text-3xl">Опыт работы:</h2>', "</section>"];
+const $$_tpl_2$1 = ["<div ", ' class="flex flex-col gap-4"><div class="text-[18px] flex flex-col gap-1"><h3 class="text-[20px] text-blue text-">', "</h3><h4>", '</h4><h5 class="text-[16px] text-gray-400">', '</h5></div><div><h4 class="text-2xl mb-2">', "</h4><ul>", "</ul></div></div>"];
+const $$_tpl_3$1 = ["<li ", ">— ", "</li>"];
+function ExperienceSection() {
+  return a($$_tpl_1$1, s(ExperienceData.map((item, index) => a($$_tpl_2$1, l("key", index), s(item.company), s(item.location), s(item.period), s(item.position), s(item.responsibilities.map((resp, i) => a($$_tpl_3$1, l("key", i), s(resp))))))));
+}
+const $$_tpl_1 = ['<section class="text-white">', '<div class="mt-12"><h2 class="font-bold text-3xl">', '</h2></div><div class="mt-4 flex flex-col gap-2"><h2 class="text-2xl">', '</h2><p class="font-mono">', '</p></div><div class="flex flex-col gap-3 mt-3"><h3 class="text-2xl text-gray-500 font-bold">Технические навыки</h3><ul><span class="text-blue">Инструменты:</span>', '</ul><ul><span class="text-blue">Web:</span>', '</ul><div class="flex flex-col gap-3"><h3 class="text-2xl text-gray-500 font-bold">Социальные навыки</h3><ul>', "</ul></div></div></section>", "", ""];
+const $$_tpl_2 = ["<li ", ">— ", "</li>"];
+const $$_tpl_3 = ["<li ", ">— ", "</li>"];
+const $$_tpl_4 = ["<li ", ">— ", "</li>"];
+function About() {
+  return a($$_tpl_1, u("a", { class: "flex mt-8", href: "/", children: [u(ArrowIcon, null), "Home"] }), s(resumeData.name), s(resumeData.title), s(resumeData.summary), s(resumeData.skills.util.map((item, index) => a($$_tpl_2, l("key", index), s(item)))), s(resumeData.skills.web.map((item, index) => a($$_tpl_3, l("key", index), s(item)))), s(resumeData.skills.social.map((item, index) => a($$_tpl_4, l("key", index), s(item)))), u(ExperienceSection, null), u(Footer, null));
+}
+export {
+  About as default
+};
